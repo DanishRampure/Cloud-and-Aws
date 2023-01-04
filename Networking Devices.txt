@@ -1,0 +1,66 @@
+                                                       
+                                                        Servers
+A server is a physical computer that runs software services that other computer devices or software can access.
+Servers are distinguished by the service that they provide. Common use cases for servers include the following:
+• Web server: Stores and distributes web pages and other web content by using HTTP
+File server: Stores and distributes files
+• Database server: Stores databases and manages access to the databases
+• Print server: Controls and manages one or more remote printers on the network
+Mail server: Stores and delivers email, like a digital post office
+Proxy server: Improves security by acting as an intermediary for requests from clients that are seeking resources
+
+                                                    Network Node/Client
+
+A network node or client is a computer hardware device that accesses a service under the management of another
+computer hardware device, called a server. The server is typically located on a separate physical computer. The node or
+client must connect to the server over the network to access the service.
+For example, suppose that you must access a collection of files that are shared among the workers in your organization.
+A computer hardware device (the file server) is set up to store and distribute these files. When a user must access a file,
+they use their client hardware device, which is typically another computer. The client device connects to the file server
+over the network to retrieve the file.
+Common examples of nodes on a network include the following:
+Computers
+Printers
+Fax machines
+Personal devices (cell phones, tablets, and others)
+P 8
+
+                                                       Router
+A router is a network device that connects multiple network segments into one network. It is located at any gateway
+(where one network meets another). The router connects multiple switches and their respective networks to enable
+communication between the different networks. It acts as a switch between networks and can also filter the data that
+flows through it. As soon as the router is connected, it can make intelligent decisions about how best to get network
+data to its destination. It bases these decisions on network performance data that it gathers from the network itself.
+Switch
+POP
+Department A nodes
+Router
+Switch
+000
+Department B nodes
+
+                                                       Hub
+ A hub is the device that connects all the nodes of a network together. Any transmitted data that is received on one
+port is rebroadcast to all the other ports on the hub. Therefore, if one node sends it, all the others receive it, but only
+the intended recipient listens to it.
+
+                                                    Switch: 
+A switch connects multiple nodes of a network together. However, they have an important difference
+A hub rebroadcasts any signal that it receives on one port to all the others. A switch makes a direct link between the
+transmitting device and receiving device. Any device that is not the intended target will not receive the transmission.
+The benefit of a switch over a hub is that the switch improves performance because it doesn't waste bandwidth on
+unnecessary transmissions.  
+
+
+                                                        ISP
+
+An internet service provider (ISP) is an organization that provides internet access to its customers. Without the
+services that an ISP offers, you would not be able to access other networks on the internet.
+
+                                                      Cloud
+
+The Cloud is on-demand delivery of IT resources over the internet.You don't need to buy,own, and maintain
+physical data centeres and servers.Instead you can access technology services,such as servers,storage and 
+databases on an as needed basics from a cloud provider like AWS,GCP,Azure
+Many networkinf architecture rely completely on a servers in the cloud rather than on-premises.Other
+network architecture use a hybrid approach which include using seervers in the cloud and servers on premises
